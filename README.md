@@ -45,6 +45,10 @@ source .venv/bin/activate
 uv sync
 ```
 
+### DB Configuration
+
+Your PostgreSQL connection string can be set within the .env file.
+
 ### Running
 
 Run the import python script whilst providing either 3 or 4 for the desired MIMIC version.
